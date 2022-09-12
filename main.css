@@ -1,0 +1,189 @@
+:root{
+    --dark-blue: #1F2937;
+    --bright-blue: #3882F6;    
+    --white-font: #F9FAF8;
+    --off-white: #E5E7EB;
+    --information-header-txt-color: #1F2937;
+    --information-header-txt-size: 36px;
+    --quote-section-bg-color: #E5E7EB;
+    --quote-text-color: #1F2937;
+    --quote-text-size:36px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-color: var(--dark-blue);
+}
+
+
+nav{
+    background-color: var(--dark-blue);
+    color: var(--white-font);
+    display: flex;
+    padding: 0px 250px 0px;
+    align-items: center;
+}
+
+nav ul{
+    display: table;    
+    vertical-align: middle;
+
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    color: var(--off-white);
+    padding: 0 10px 0 10px;
+
+}
+
+nav p{
+    display: inline-block;
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-main{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.hero-left, .hero-right{
+    flex: 1;
+}
+
+.hero-left{
+    padding: 0px 200px 100px 250px;
+
+}
+
+.hero-right{
+    padding: 0px 200px 0px 100px;
+}
+
+.hero-left h1{
+    color: var(--white-font);
+    font-size: 48px;
+}
+
+.hero-left p{
+    color: var(--off-white);
+    font-size: 18px;
+}
+
+
+.img-placeholder {
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+}
+
+#sign-up-hero{
+    background-color: var(--bright-blue);
+    border: solid var(--bright-blue );
+    border-radius: 10px;
+    color: var(--white-font);
+    height: 35px;
+    width: 100px;
+}
+
+.info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: var(--information-header-txt-color);
+}
+
+.info h2{
+    font-size: 36px;
+}
+
+.info-box-container{    
+    display: flex;
+    justify-content: center;
+    color: var();
+}
+
+
+.placeholder{
+    height: 150px;
+    width: 150px;
+    border: solid var(--bright-blue) 3px;
+    border-radius: 10px;
+}
+
+.info-box{
+    padding: 10px 20px 0px 20px;
+    width: 150px;
+}
+
+
+.quote-container{
+    background-color: var(--quote-section-bg-color);
+    padding: 150px 400px 150px 400px;
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight:100;
+    font-style: italic
+}
+
+#quote-signature{
+    text-align: right;
+    font-size: 18px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+
+
+.cta-inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bright-blue);
+    margin: 150px 350px 150px 350px;
+    border-radius: 10px;
+    padding: 50px 0 50px 0;
+}    
+
+
+
+.cta-signup-btn button{
+    border: solid var(--white-font) 1px;
+    background-color: var(--bright-blue);
+    color: var(--white-font);
+    border: solid 2px;
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: var(--dark-blue);
+    color: var(--off-white);
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+}
+
+
+.cta{
+    padding: 0 50px 0 50px;
+    color: var(--white-font);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta .sub-text{
+    color: var(--off-white);
+    font-size: 18px;
+}
+
